@@ -1,0 +1,27 @@
+.oculus {
+  padding: 0 15px;
+  position: relative;
+  margin-bottom: 109px;
+
+}
+.oculus__img {
+  max-width: 1687px;
+  max-height: 387px;
+  margin-bottom: 30px;
+}
+.oculus__item {
+  max-width: 346px;
+  height: 334px;
+  position: absolute;
+  bottom: 30%;
+  right: 40%;
+  z-index: 11;
+}
+.buy-btn__oculus{  
+  margin: 0 auto;
+  margin-bottom: 10px;
+
+}
+.buy__text-oculus {
+  text-align: center;
+}

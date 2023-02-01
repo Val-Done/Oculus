@@ -1,0 +1,94 @@
+.game {
+  padding-bottom: 100px;
+  
+}
+.game__row {
+  display: grid;
+  grid-template-columns: repeat(5, 300px);
+  grid-template-rows: 500px;
+}
+.game__title {
+  font-size: 16px;
+  line-height: 18px;
+  color: #5c5c5e;
+  margin-bottom: 50px;
+}
+/* * общие стили для box * */
+.game__box {
+  max-width: 300px;
+  max-height: 500px;
+  padding: 20px 20px 22px;
+  /* !так к бордеру добовляют градиетн */
+  border: 1px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    180deg,
+    #bc10d8 0%,
+    rgba(80, 0, 250, 0.93) 100%
+  );
+}
+.box__name {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #070707;
+  margin-bottom: 10px;
+}
+.box__img {
+  margin-bottom: 10px;
+}
+.box__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #5c5c5e;
+  margin-bottom: 40px;
+}
+
+.box__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.box-one__name {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 41px;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.box-one__text {
+  font-size: 16px;
+  line-height: 18px;
+  color: #5c5c5e;
+  margin-bottom: 30px;
+}
+
+.game__btn {
+  display: inline-block;
+  padding: 16px 48px;
+  border: 1px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    180deg,
+    #bc10d8 0%,
+    rgba(80, 0, 250, 0.93) 100%
+  );
+
+  background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  
+}

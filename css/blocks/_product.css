@@ -1,0 +1,127 @@
+.product {
+  padding: 100px 100px;
+}
+
+.product__row {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.product__box-one {
+  margin-right: 115px;
+}
+.product__title {
+  margin-bottom: 84px;
+  font-size: 16px;
+  line-height: 18px;
+  color: #5c5c5e;
+}
+.product__item {
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #5c5c5e;
+}
+.product__item:first-child {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #070707;
+}
+
+.product__link {
+}
+.product__box-two {
+  margin-right: 40px;
+}
+.easy-use__name {
+  max-width: 329px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 41px;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.easy-use__img {
+}
+.product__box-two::after {
+  content: "";
+  display: block;
+  height: 300px;
+
+  border: 1px solid #cacad6;
+  position: absolute;
+  top: 100px;
+  right: 310px;
+}
+
+.product__box-three {
+  align-self: end;
+  max-width: 280px;
+}
+.product__demo-title {
+  font-size: 24px;
+  line-height: 28px;
+  color: #5c5c5e;
+  margin-bottom: 10px;
+}
+.product__demo-text {
+  line-height: 18px;
+  color: #5c5c5e;
+
+  margin-bottom: 40px;
+}
+.video__content {
+}
+.video {
+}
+.video__overlay {
+  position: relative;
+}
+.video__btn {
+  position: absolute;
+  bottom: 34px;
+  left: 31px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: #f6f4f5;
+  border: none;
+  -webkit-border-radius: ;
+  -moz-border-radius: ;
+  -ms-border-radius: ;
+  -o-border-radius: ;
+}
+.video__btn img {
+  z-index: 12;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.video__btn:hover {
+  cursor: pointer;
+  transform: translateX(2px);
+  -webkit-transform: translateX(2px);
+  -moz-transform: translateX(2px);
+  -ms-transform: translateX(2px);
+  -o-transform: translateX(2px);
+}
+.video__text {
+  position: absolute;
+  z-index: 1;
+  bottom: 10px;
+  left: 9px;
+  color: #f6f4f5;
+}
+.video__picture {
+}

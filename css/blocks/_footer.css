@@ -1,0 +1,27 @@
+.footer {
+  margin-bottom: 44px;
+  border-top: 1px solid #cacad6;
+  border-bottom: 1px solid #cacad6;
+}
+
+.footer__nav {
+  height: 100px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  gap: 0 20px;
+}
+
+.logo {
+  margin-left: 214px;
+}
+
+.footer__social {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  gap: 0 20px;
+}

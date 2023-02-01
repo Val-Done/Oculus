@@ -1,0 +1,59 @@
+@import "./blocks/_header.css";
+@import "./blocks/_top.css";
+@import "./blocks/_product.css";
+@import "./blocks/_game.css";
+@import "./blocks/_oculus.css";
+@import "./blocks/_in-box.css";
+@import "./blocks/_accessories.css";
+@import "./blocks/_news.css";
+@import "./blocks/_footer.css";
+
+@font-face {
+  font-family: "Helvetica", sans-serif;
+  src: url(../fonts/helvetica.woff2);
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Helvetica-Bold", sans-serif;
+  src: url(../fonts/helvetica-bold.woff2);
+  font-style: normal;
+  font-weight: 700;
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+.body {
+  font-family: "Helvetica", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #5c5c5e;
+}
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.none {
+  display: none;
+}

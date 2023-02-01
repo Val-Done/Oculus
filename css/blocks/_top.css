@@ -1,0 +1,50 @@
+/* *Стили для Top* */
+
+.top {
+  min-height: calc(100vh - 81px);
+  background-image: url(../../images/top/bg_top.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  color: #5c5c5e;
+}
+
+.top__title {
+  padding-top: 16%;
+  font-size: 96px;
+  line-height: 110px;
+  margin-bottom: 10px;
+}
+.top__subtitle {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 41px;
+  margin-bottom: 5px;
+}
+.top__text {
+  font-size: 13px;
+  line-height: 15px;
+  margin-bottom: 50px;
+}
+.buy-btn {
+  padding: 1px;
+  border: none;
+  text-transform: uppercase;
+  display: flex;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+}
+
+.buy-btn_text {
+  color: #f6f4f5;
+  padding: 20px 110px;
+}
+.buy-btn_price {
+  background-color: #f6f4f5;
+  padding: 20px 105px;
+}
+.buy__text {
+  font-size: 13px;
+  line-height: 15px;
+}
